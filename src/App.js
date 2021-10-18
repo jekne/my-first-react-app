@@ -14,13 +14,13 @@ const res = all_pokemon.map((pokemon) => {
 });
 
 console.log(res);
-// This console.log it is just to show on the console
+// This console.log it is just to show on the console inside the page
 
 function App() {
   return (
     <div className="App">
       {all_pokemon.map((pokemon) => {
-        return `${pokemon.name}: ${pokemon.weight}`;
+        return ` Name :${pokemon.name}, Weight: ${pokemon.weight}Kg`;
       })}
       {/* to bring the solution to the page local hots 3000 actually you bring the function inside the app */}
 
