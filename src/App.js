@@ -1,13 +1,14 @@
-import './App.css';
+import "./App.css";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div className="App">
-      <div> welkome to codaiseeur</div>
-      <div> welkome to codaiseeur</div>
-      <div> welkome to codaiseeur</div>
-      <div> welkome to codaiseeur</div>
-     <p> this is a test</p>
+      <Title />
+      <div> HELLO WORLD!</div>
+
+      <p> React is cool!</p>
+      <div></div>
     </div>
   );
 }
